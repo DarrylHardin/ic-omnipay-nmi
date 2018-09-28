@@ -1,8 +1,7 @@
 <?php
 /**
- * @link      https://craftcms.com/
+ * @link      https://importantcoding.com/
  * @copyright Copyright (c) importantcoding, Inc.
- * @license   https://craftcms.com/license
  */
 
 namespace importantcoding\commerce\nmi\migrations;

@@ -7,28 +7,17 @@ This plugin provides [NMI](https://www.networkmerchants.com/) integrations for [
 
 This plugin requires Craft Commerce 2.0.0-beta.9 or later.
 
-
-## Installation
-
-To install the plugin, follow these instructions.
-
-1. Open your terminal and go to your Craft project:
-
-        cd /path/to/project
-
-2. Then tell Composer to load the plugin:
-
-        composer require importantcoding/ic-omnipay-nmi
-
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for NMI.
-
 ## Setup
 
-To add a NMI payment gateway, go to Commerce → Settings → Gateways, create a new gateway, and set the gateway type to NMI Direct””.
+To add a NMI payment gateway, go to Commerce → Settings → Gateways, create a new gateway, and set the gateway type to NMI Direct”.
+Put in your Username and Password. You can do a test by setting your gateway to Test Mode in your NMI account.
 
-### Disabling CSRF for webhooks.
+## Testing Information
 
-You must disable CSRF protection for the incoming requests, assuming it is enabled for the site (default for Craft since 3.0).
+To test, go to [Direct Post API](https://secure.networkmerchants.com/gw/merchants/resources/integration/integration_portal.php#testing_information) and you can run test numbers.
 
-A clean example for how to go about this can be found [here](https://craftcms.stackexchange.com/a/20301/258).
+## Other Information
 
+This plugin only supports immediate authorize and capture at the moment. 
+
+Payments with ACH is untested.
