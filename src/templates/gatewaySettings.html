@@ -1,0 +1,21 @@
+{% from "_includes/forms" import textField, lightswitchField %}
+
+ {{ textField({
+     label: "Username"|t('commerce'),
+     id: 'username',
+     class: 'ltr',
+     name: 'username',
+     value: gateway.username,
+     errors: gateway.getErrors('username')
+ }) }}
+
+  {{ textField({
+     label: "Password"|t('commerce'),
+     id: 'password',
+     class: 'ltr',
+     name: 'password',
+     value: gateway.password,
+     errors: gateway.getErrors('password')
+ }) }}
+
+

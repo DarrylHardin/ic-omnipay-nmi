@@ -1,0 +1,44 @@
+{
+  "name": "importantcoding/ic-omnipay-nmi",
+  "description": "NMI payment gateway",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": [
+    "NMI",
+    "Network Merchants",
+    "commerce",
+    "craft commerce 2",
+    "craftcms",
+    "omnipay"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "importantcoding",
+      "homepage": "https://importantcoding.com/"
+    }
+  ],
+  "support": {
+    "email": "support@importantcoding.com",
+    "issues": "https://github.com/importantcoding/ic-omnipay-nmi/issues?state=open",
+    "source": "https://github.com/importantcoding/ic-omnipay-nmi",
+    "docs": "https://github.com/importantcoding/ic-omnipay-nmi",
+    "rss": "https://github.com/importantcoding/ic-omnipay-nmi/commits/master.atom"
+  },
+  "require": {
+    "craftcms/commerce": "^2.0.0-beta.9",
+    "craftcms/commerce-omnipay": "^1.0.0",
+    "mfauveau/omnipay-nmi": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "importantcoding\\commerce\\nmi\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "NMI Gateway",
+    "handle": "ic-omnipay-nmi",
+    "changelogUrl": "https://raw.githubusercontent.com/importantcoding/ic-omnipay-nmi/master/CHANGELOG.md",
+    "downloadUrl": "https://github.com/importantcoding/ic-omnipay-nmi/archive/master.zip"
+  }
+}
