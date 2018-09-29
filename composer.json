@@ -1,7 +1,7 @@
 {
   "name": "importantcoding/ic-omnipay-nmi",
   "description": "NMI payment gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "craft-plugin",
   "keywords": [
     "NMI",
