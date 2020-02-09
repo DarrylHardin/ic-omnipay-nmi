@@ -5,7 +5,9 @@ This plugin provides [NMI](https://www.networkmerchants.com/) integrations for [
 
 ## Requirements
 
-This plugin requires Craft Commerce 2.0.0-beta.9 or later.
+"craftcms/cms": "^3.3.4",
+"craftcms/commerce": "^2.2|^3.0",
+"craftcms/commerce-omnipay": "^2.0.0",
 
 ## Setup
 
