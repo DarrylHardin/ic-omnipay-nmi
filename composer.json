@@ -11,7 +11,7 @@
     "craftcms",
     "omnipay"
   ],
-  "license": "proprietary",
+  "license": "mit",
   "authors": [
     {
       "name": "importantcoding",
