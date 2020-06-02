@@ -1,5 +1,3 @@
-ABANDONED (It needs to be upgraded to Omni 3, as it is at present it is a security risk)
-
 NMI payment gateway plugin for Craft Commerce 2
 =======================
 
